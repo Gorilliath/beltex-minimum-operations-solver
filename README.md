@@ -5,3 +5,16 @@ to reach a target number using any numbers between `1`–`10`.
 Each operation uses the result of the previous step.
 
 Works well with manual routed MAMs...
+
+## Prerequisites
+
+- Python
+
+## Usage
+
+```stdout
+$ py ./main.py 844
+
+Minimum steps: 4
+Sequence: 2 -> 2+10=12 -> 12*7=84 -> 84*10=840 -> 840+4=844
+```
